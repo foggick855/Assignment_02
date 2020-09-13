@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-color: #f3f3f3;
+}
+.form-box{
+width: 340px;
+margin: 100px auto 20px;
+background-color: #FFFFFF ;
+border-radius: 2px;
+padding: 45px 50px 0px 50px;
+
+font-family: 'Montserrat', sans-serif;
+box-shadow: 0px 2px 2px grey;
+}
+.form-box h2{
+
+margin-bottom: 30px;
+}
+.form-box form{
+text-align: right;
+
+}
+.form-box form input{
+width: 200px;
+margin-bottom: 25px;
+padding: 8px 10px;
+background: transparent;
+border: none;
+border: 1px solid #EEEEEE;
+
+}
+.form-box form input:focus{
+outline: none;
+}
+.btn{
+background: #5cd3b4 !important ;
+color: white;
+width: 100px !important;
+font-weight: bold;
+
+}
+.btnp{
+text-align: center !important;
+padding-top: 25px;
+}
+h2{
+border-bottom: 3px solid #5cd3b4;
+width: 120px;
+padding-bottom: 5px;
+margin: auto;
+}
+label{
+font-size: 10px;
+text-align: right;
+padding-right: 20px;
+}
+.checkbox{
+padding: 0px !important;
+margin: 0px !important;
+width: 30px !important;
+}
+.cond{
+font-weight: 300;
+position: relative;
+bottom: 2px;}
+.cond a{
+color: #5cd3b4;
+text-decoration: none;
+}
+.footer{
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+text-align: center;
+}
+.footer a{
+color: #5cd3b4;

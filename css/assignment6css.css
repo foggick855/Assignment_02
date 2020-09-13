@@ -1,0 +1,108 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-color: #c1bdba;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+::placeholder {
+color: grey;
+opacity: 1;
+text-align: left;
+font-size: 12px;
+}
+:-ms-input-placeholder {
+color: #c3ccd5;
+text-align: left;
+font-size: 12px;
+}
+::-ms-input-placeholder {
+color: #c3ccd5;
+text-align: left;
+font-size: 12px;
+}
+li  {
+display:inline-block;
+padding:12px;
+font-size:20px;
+width:40%;
+text-align:center;
+cursor:pointer;
+margin: 0px;
+}
+li a{
+text-decoration:none;
+font-size: 16px;
+}
+.secondtab{
+background-color:#435259;}
+.secondtab a{
+color:#536069;
+}
+.firsttab{
+background-color:  #1ab188 ;
+position: relative;
+left: 14px;
+}
+.firsttab a{
+color:white;
+}
+.form-box{
+width: 340px;
+margin: 40px auto 20px;
+background-color: #13232f ;
+border-radius: 2px;
+padding: 45px 30px 0px ;
+box-shadow: 1px 3px 5px black;
+}
+.form-box form input{
+width: 270px;
+margin-bottom: 1px;
+background: transparent;
+border: none;
+border: 1px solid #c3ccd5;
+padding: 6px 10px;
+margin: 12px 25px;
+}
+.form-box form input:focus{
+outline:none;
+}
+.form-box form .fills1 input{
+width:118px !important;
+display: inline-block;
+margin: 5px;
+}
+.btn{
+background: #1ab188 !important ;
+color: white;
+width: 320px !important;
+height: 40px;
+font-weight: 200;
+text-align: center !important;
+font-size: 16px;
+border: 0px solid transparent !important;
+border-radius: 3px;
+margin: 10px !important;
+letter-spacing: 3px;
+cursor: pointer;
+}
+.btnp{
+padding-bottom: 45px;
+text-align: center;
+}
+h2{
+font-size: 22px;
+text-align: center;
+font-weight: 100;
+color: white;
+margin: 24px;
+}
+.headertext{
+font-size: 12px;
+margin: 5px;
+a{
+color: #5789a8;
+text-decoration: none;
+}

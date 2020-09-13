@@ -1,0 +1,128 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background: url(../img/bg5.png ) no-repeat ;
+font-family: 'Orbitron', sans-serif;
+color: #c3ccd5;
+}
+::placeholder {
+color: #c3ccd5;
+opacity: 1;
+text-align: center;
+font-size: 12px;
+}
+:-ms-input-placeholder {
+color: #c3ccd5;
+text-align: center;
+font-size: 12px;
+}
+::-ms-input-placeholder {
+color: #c3ccd5;
+text-align: center;
+font-size: 12px;
+}
+.form-box{
+width: 340px;
+margin: 40px auto 20px;
+background-color: rgba(0,8,17,0.8); ;
+border-radius: 2px;
+padding: 45px 30px 0px ;
+}
+.form-box form input{
+width: 230px;
+margin-bottom: 1px;
+padding: 1px 11px;
+background: transparent;
+border: none;
+border: 1px solid #c3ccd5;
+padding: 12px 32px;
+margin: 12px 25px;
+text-align: center;
+}
+.form-box form input:focus{
+outline:none;
+}
+.btn{
+background: #16293a !important ;
+color: inherit;
+width: 320px !important;
+height: 40px;
+font-weight: bold;
+text-align: center !important;
+font-size: 14px;
+border: 0px solid transparent !important;
+border-radius: 3px;
+margin: 10px !important;
+cursor: pointer;
+}
+.btnp{
+padding-bottom: 45px;
+text-align: center;
+}
+h2{
+font-size: 34px;
+font-weight: 100;
+width: 320px;
+margin: 100px auto 0px;
+}
+.headertext{
+font-size: 12px;
+margin: 5px;
+/*padding-bottom: 10px;*/
+}
+/*.fills{
+border: 1px solid #e1e1e1;
+border-radius: 2px;
+padding: 5px;
+margin: 12px;
+-webkit-box-shadow: inset 4px 6px 8px -7px rgba(0,0,0,0.24);
+box-shadow: inset 4px 6px 8px -7px rgba(0,0,0,0.24);
+}*/
+a{
+color: #5789a8;
+text-decoration: none;
+}
+.fbbtn{
+color: white;
+background-color: #507cc0;
+border: 1px solid #507cc0;
+width: 30px;
+height: 30px !important;
+
+border-radius: 20px;
+
+margin:3px;
+}
+.ttbtn{
+color: white;
+background-color: #64ccf1;
+border: 1px solid #64ccf1;
+width: 30px;
+height: 30px !important;
+border-radius: 20px;
+margin:3px;
+}
+.ggbtn{
+color: white;
+background-color: #df4930;
+border: 1px solid #df4930;
+width: 30px;
+height: 30px !important;
+border-radius: 20px;
+margin:3px;
+
+}
+.footertxt{
+font-size: 8px;
+width:180px;
+margin: 5px auto 15px;
+}
+.footer2{
+font-size: 13px;
+text-align: center;
+
+position: relative;
+bottom:22px;
+}

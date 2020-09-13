@@ -1,0 +1,135 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-color: #dfe7e9;
+font-family: 'Montserrat', sans-serif;
+color: #636363;
+}
+::placeholder {
+color: #999999;
+opacity: 1;
+text-align: left !important;
+font-size: 12px;
+}
+:-ms-input-placeholder {
+color: #999999;
+text-align: left;
+font-size: 12px;
+}
+::-ms-input-placeholder {
+color: #999999;
+text-align: left;
+font-size: 12px;
+}
+.hdtxt{
+text-align: center;
+}
+.form-box{
+width: 340px;
+margin: 100px auto 20px;
+background-color: #FFFFFF ;
+border-radius: 2px;
+padding: 45px 30px 0px ;
+box-shadow: 0px 2px 2px grey;
+}
+.form-box form input{
+width: 200px;
+margin-bottom: 1px;
+padding: 1px 11px;
+background: transparent;
+border: none;
+text-align: left;
+}
+.form-box form input:focus{
+outline:none;
+}
+.btn{
+background: #5789a8 !important ;
+color: white;
+width: 220px !important;
+height: 35px;
+font-weight: bold;
+text-align: center !important;
+font-size: 15px;
+border-radius: 3px;
+}
+.btnp{
+padding-bottom: 45px;
+text-align: center;
+}
+h2{
+width: 240px;
+margin: 0px auto;
+}
+.headertext{
+font-size: 12px;
+margin: 5px;
+/*padding-bottom: 10px;*/
+}
+.fills{
+border: 1px solid #e1e1e1;
+border-radius: 2px;
+padding: 5px;
+margin: 12px;
+-webkit-box-shadow: inset 4px 6px 8px -7px rgba(0,0,0,0.24);
+box-shadow: inset 4px 6px 8px -7px rgba(0,0,0,0.24);
+}
+a{
+color: #5789a8;
+text-decoration: none;
+}
+.fbbtn{
+color: white;
+background-color: #507cc0;
+width: 170px;
+border: 1px solid white;
+border-radius: 4px;
+padding:10px;
+margin: 10px auto 5px;
+}
+.ggbtn{
+color: white;
+background-color: #df4930;
+width: 170px;
+border: 1px solid white;
+border-radius: 4px;
+padding:10px;
+margin: 10px 13px 35px;
+}
+.ordiv{
+text-align: center;
+color: black;
+font-weight: 900;
+font-size: 14px;
+width: 22px;
+height: 20px;
+padding: 5px;
+background-color: white;
+border: 1px solid #e1e1e1;
+border-radius: 50px;
+margin: auto;
+position: relative;
+bottom: 18px;
+}
+.footertxt{
+font-size: 10px;
+width:270px;
+margin: auto;
+}
+.terms{
+font-size: 10px;
+width:170px;
+margin: 20px auto;
+}
+.terms a{
+color:#bababa;
+}
+.footer2{
+font-size: 13px;
+text-align: center;
+
+position: relative;
+bottom:22px;
+}
